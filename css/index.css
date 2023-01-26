@@ -8,14 +8,39 @@ html {
 
 /* Introduction div */
 #introduction{
-    margin-top: 20%;
     font-size: 175%;
     color: #d3d3d3;
     text-align: center;
-    padding-bottom: 35%;
     font-family: "Solitreo", sans-serif;
 }
 
+@media only screen and (max-width: 768px){
+#introduction {
+  padding-bottom: 60%;
+  margin-top: 30%;
+}
+}
+
+@media only screen and (min-width: 769px) and (max-width: 992px){
+    #introduction {
+      padding-bottom: 30%;
+      margin-top: 20%;
+    }
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1200px){
+  #introduction {
+    padding-bottom: 30%;
+    margin-top: 20%;
+  }
+}
+
+@media only screen and (min-width: 1201px){
+  #introduction {
+    margin-top: 17.5%;
+    padding-bottom: 20%;
+  }
+}
 
 
 /* Skills */

@@ -18,7 +18,7 @@ i = 0
 txt = "A Programmer"
 $(elementName).text('')
 $(elementName).css("visibility", 'visible')
-setTimeout(() => $('.viewSkills').css('visibility', 'visible'), 50 * txt.length)
+setTimeout(() => $('.viewSkills').css('visibility', 'visible'), 150 * txt.length)
 typeWriter()
 } , 150 * (txt.length + 2))
 
