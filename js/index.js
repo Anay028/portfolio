@@ -20,7 +20,7 @@ $(elementName).text('')
 $(elementName).css("visibility", 'visible')
 setTimeout(() => $('.viewSkills').css('visibility', 'visible'), 50 * txt.length)
 typeWriter()
-} , 150 * txt.length)
+} , 150 * txt.length + 100)
 
 function openEmail(){
   window.location = "mailto:smog_snag.0s@icloud.com"

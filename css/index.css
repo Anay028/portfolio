@@ -12,8 +12,14 @@ html {
     font-size: 175%;
     color: #d3d3d3;
     text-align: center;
-    padding-bottom: 15%;
+    padding-bottom: 20%;
     font-family: "Solitreo", sans-serif;
+}
+
+@media only screen and (max-width: 950px){
+  #introduction {
+    padding-bottom: 50%;
+  }
 }
 
 
@@ -48,6 +54,11 @@ html {
     font-size: 190%;
     font-family: "Dancing Script", sans-serif;
     color: white;
+}
+
+
+.col {
+  padding-bottom: 10%;
 }
 
 
