@@ -8,19 +8,16 @@ html {
 
 /* Introduction div */
 #introduction{
-    margin-top: 15%;
+    margin-top: 20%;
     font-size: 175%;
     color: #d3d3d3;
     text-align: center;
-    padding-bottom: 20%;
+    padding-bottom: 35%;
     font-family: "Solitreo", sans-serif;
 }
 
 @media only screen and (max-width: 950px){
-  #introduction {
-    padding-bottom: 65%;
-    margin-top: 25%;
-  }
+
 }
 
 
